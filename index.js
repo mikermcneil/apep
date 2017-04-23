@@ -8,7 +8,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-var walker = require('walker-sample');
+var walker = require('@sailshq/walker-sample');
 
 var arrayMap = Function.prototype.call.bind(Array.prototype.map);
 var arrayFoldr = function arrayFoldr(f, z, a) {

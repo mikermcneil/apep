@@ -4,7 +4,7 @@
     Dada engine inspired library for random text generation.
 */
 "use strict";
-const walker = require('walker-sample');
+const walker = require('@sailshq/walker-sample');
 
 const arrayMap = Function.prototype.call.bind(Array.prototype.map);
 const arrayFoldr = (f, z, a) => Array.prototype.reduceRight.call(a, f, z);
